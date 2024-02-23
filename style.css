@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: black;
+}
+.logo{
+    max-width: 3rem;
+    border-radius:50px;
+    
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    gap: 1.5rem;
+}
+.nav-list li a {
+    text-decoration: none;
+    color: white
+
+}
+.abrir-menu,
+.cerrar-menu{
+    display: none;
+}
+
+@media screen and ( max-width: 550px){
+   .abrir-menu,
+   .cerrar-menu{
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+    }
+
+.nav{
+    display: none;
+    
+} 
+.nav{
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1.5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    padding: 2rem;
+    box-shadow: 0 0 0 100vmax rgba(0,0,0, .5);
+}
+.nav.visible{
+opacity: 1;
+visibility: visible;
+}
+.nav-list{
+    flex-direction: column;
+    align-items: end;
+}
+
+}
+
+.foto1{
+    height: 2rem;
+    border-radius: 15px;
+    
+    
+}
+
+.foto-mia{
+    height: 10rem;
+    width: 8.3rem;
+    border-radius: 15px;
+    border: solid;
+    margin: 2rem;
+    box-shadow: 16px 14px 0px #ff661aad;
+}
+h1{
+    font-size: 1.8rem;
+    color: rgba(255, 255, 255, 0.829);
+}
+h3{
+    color: white;
+}
+p{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.801);
+}
+.cabezera-pagina{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 70vh;
+    background-color: black;
+       
+}
+.cuerpo-pagina{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 80vh;
+    background-color: black;
+}
+
+.pie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 20vh;
+    background-color: black;
+    padding: 2rem;
+}
+i{
+    color: rgba(255, 255, 255, 0.815);
+    padding: 2px;
+}
+.otroco{
+    color: #ff661aef;
+}
+.cuerpo{
+border: solid;
+    color:#ff661a2c;
+    height: 70vh;
+    width: 45vh;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1rem;
+}
+.rutas{
+    margin: 10px;
+}
+.text-proyectos{
+    color: grenn;
+    }
